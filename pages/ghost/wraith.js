@@ -9,20 +9,21 @@ export default class Wraith extends Component {
             <Container>
                 <h1>Wraith</h1> 
                 <br/>
-                    <p><center>A spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting
-                        grounds after an unexplained death.</center>
+                    <p><center>A wraith is one of the most dangerous Ghosts you will find. It is also the only known Ghost that has the ability of flight and has sometimes been known
+                        to travel through walls.
+                    </center>
                     </p>
                 <h4>Unique Strengths</h4>
-                <p>Nothing</p>
+                <p>Wraiths almost never touch the ground meaning it can't be tracked by footsteps.</p>
                 <br/>
                 <h4>Weaknesses</h4>
-                <p>Using Smudge Sticks on a Spirit will stop it attacking for a long period of time.
+                <p>Wraiths have a toxic reaction to Salt
                 </p>
                 <br/>
                 <h4>Evidence</h4>
-                <div>Spirit Box</div>
                 <div>Fingerprints</div>
-                <div>Ghost Writing</div>
+                <div>Freezing Temperatures</div>
+                <div>Spirit Box</div>
             </Container>
         )
     }

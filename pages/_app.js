@@ -15,16 +15,16 @@ function MyApp( { Component, pageProps } ) {
               <NavDropdown title="Meet The Ghosts" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/ghost/spirit">Spirit</NavDropdown.Item>
                 <NavDropdown.Item href="/ghost/wraith">Wraith</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Phantom</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Poltergeist</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.5">Banshee</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.6">Jinn</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.7">Mare</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.8">Revenant</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.9">Shade</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.10">Demon</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.11">Yurei</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.12">Oni</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/phantom">Phantom</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/poltergeist">Poltergeist</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/banshee">Banshee</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/jinn">Jinn</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/mare">Mare</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/revenant">Revenant</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/shade">Shade</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/demon">Demon</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/yurei">Yurei</NavDropdown.Item>
+                <NavDropdown.Item href="/ghost/oni">Oni</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Form inline>
