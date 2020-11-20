@@ -1,0 +1,11 @@
+//Your customizations must come before bootstrap import
+
+$enable-shadows: true;
+$primary: rgb(0, 19, 223);
+
+
+$body-color:  rgb(241, 235, 235);
+$body-bg: #000000;
+$danger: #fd7e14;
+
+@import '../scss/bootstrap.scss';
