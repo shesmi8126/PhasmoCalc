@@ -22,9 +22,11 @@ export default class Ghostie extends Component {
         ];
 
         let canBeFound = this.props.foundEvidence.every(evidence => this.props.requiredEvidence.includes(evidence));
-
+        if (!canBeFound){
+            return (<></>);
+        }
         return (
-            <Row className={(canBeFound ? '' : 'd-none') + styles.ghostRow}>
+            <Row className={styles.ghostRow}>
                 <Col xs={{ span: 2, offset: 1 }}><b>{this.props.name}</b></Col>
                 {evidences.map(evidence => this.renderEvidence(evidence.key, evidence.text))}
             </Row>
