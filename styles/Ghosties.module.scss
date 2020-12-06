@@ -1,0 +1,10 @@
+.ghostRow
+{
+    &:nth-child(odd) {
+    background-color: lighten(#000000, 5%);
+    }
+
+    &:hover {
+        background-color: lighten(#000000, 15%);
+    }
+}

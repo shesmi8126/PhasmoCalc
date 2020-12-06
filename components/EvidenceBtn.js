@@ -8,7 +8,11 @@ export default class EvidenceBtn extends Component {
     }
 
      handleClick = () => {
-         this.setState((state, props) => ({isFound: !state.isFound}));
+         this.setState((state, props) => {
+             let found=!state.isFound;
+             props.onEvidenceChange?.call(this, found);
+             return {isFound: found}
+         });
     }
 
     render() {
